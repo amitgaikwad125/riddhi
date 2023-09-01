@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners><listener class-name="riddhi_test.Listeners"></listener></listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="riddhi_test.A_LoginTest" />
+			<class name="riddhi_test.B_SectionTest" />
+			<class name="riddhi_test.C_AddNewContentsTest" />
+			<class name="riddhi_test.D_ViewContentsTest" />
+			<class name="riddhi_test.E_AddReceiptsTest" />
+			<class name="riddhi_test.F_ViewReceiptsTest" />
+			<class name="riddhi_test.H_ListResidentsTest" />
+			<class name="riddhi_test.J_ListTenantsTest" />
+			<class name="riddhi_test.K_AddExpensesTest" />
+			<class name="riddhi_test.L_ListExpensesTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

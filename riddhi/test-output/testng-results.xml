@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-01T12:15:22 IST" name="Suite" finished-at="2023-09-01T12:18:39 IST" duration-ms="197457">
+    <groups>
+    </groups>
+    <test started-at="2023-09-01T12:15:22 IST" name="Test" finished-at="2023-09-01T12:18:39 IST" duration-ms="197457">
+      <class name="riddhi_test.H_ListResidentsTest">
+        <test-method is-config="true" signature="getResidentsPAge()[pri:0, instance:riddhi_test.H_ListResidentsTest@4b6e2263]" started-at="2023-09-01T12:18:02 IST" name="getResidentsPAge" finished-at="2023-09-01T12:18:03 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResidentsPAge -->
+        <test-method signature="getAllResidentsInfo()[pri:32, instance:riddhi_test.H_ListResidentsTest@4b6e2263]" started-at="2023-09-01T12:18:03 IST" name="getAllResidentsInfo" finished-at="2023-09-01T12:18:18 IST" duration-ms="14842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllResidentsInfo -->
+      </class> <!-- riddhi_test.H_ListResidentsTest -->
+      <class name="riddhi_test.C_AddNewContentsTest">
+        <test-method is-config="true" signature="getAddNewContentsPage()[pri:0, instance:riddhi_test.C_AddNewContentsTest@386f0da3]" started-at="2023-09-01T12:16:31 IST" name="getAddNewContentsPage" finished-at="2023-09-01T12:16:36 IST" duration-ms="4621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAddNewContentsPage -->
+        <test-method signature="getdata()[pri:11, instance:riddhi_test.C_AddNewContentsTest@386f0da3]" started-at="2023-09-01T12:16:36 IST" name="getdata" finished-at="2023-09-01T12:16:40 IST" duration-ms="3837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+      </class> <!-- riddhi_test.C_AddNewContentsTest -->
+      <class name="riddhi_test.K_AddExpensesTest">
+        <test-method is-config="true" signature="getAddExpensesPage()[pri:0, instance:riddhi_test.K_AddExpensesTest@1b7c473a]" started-at="2023-09-01T12:18:31 IST" name="getAddExpensesPage" finished-at="2023-09-01T12:18:32 IST" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAddExpensesPage -->
+        <test-method signature="addExpenseForm()[pri:0, instance:riddhi_test.K_AddExpensesTest@1b7c473a]" started-at="2023-09-01T12:18:32 IST" name="addExpenseForm" finished-at="2023-09-01T12:18:33 IST" duration-ms="1670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpenseForm -->
+      </class> <!-- riddhi_test.K_AddExpensesTest -->
+      <class name="riddhi_test.A_LoginTest">
+        <test-method is-config="true" signature="getBrowser()[pri:0, instance:riddhi_test.A_LoginTest@42039326]" started-at="2023-09-01T12:15:22 IST" name="getBrowser" finished-at="2023-09-01T12:15:25 IST" duration-ms="3153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method signature="loginTest()[pri:1, instance:riddhi_test.A_LoginTest@42039326]" started-at="2023-09-01T12:15:25 IST" name="loginTest" finished-at="2023-09-01T12:16:00 IST" duration-ms="34964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- riddhi_test.A_LoginTest -->
+      <class name="riddhi_test.J_ListTenantsTest">
+        <test-method signature="getTenantsPage()[pri:41, instance:riddhi_test.J_ListTenantsTest@344f4dea]" started-at="2023-09-01T12:18:18 IST" name="getTenantsPage" finished-at="2023-09-01T12:18:19 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTenantsPage -->
+        <test-method signature="getAllTenantsInfo()[pri:43, instance:riddhi_test.J_ListTenantsTest@344f4dea]" started-at="2023-09-01T12:18:19 IST" name="getAllTenantsInfo" finished-at="2023-09-01T12:18:20 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllTenantsInfo -->
+        <test-method signature="searchTenant()[pri:44, instance:riddhi_test.J_ListTenantsTest@344f4dea]" started-at="2023-09-01T12:18:20 IST" name="searchTenant" finished-at="2023-09-01T12:18:20 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTenant -->
+        <test-method signature="viewTenantinfo()[pri:45, instance:riddhi_test.J_ListTenantsTest@344f4dea]" started-at="2023-09-01T12:18:20 IST" name="viewTenantinfo" finished-at="2023-09-01T12:18:30 IST" depends-on-methods="riddhi_test.J_ListTenantsTest.searchTenant" duration-ms="10039" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='View']"}
+  (Session info: chrome=116.0.5845.112)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D8IUSTU', ip: '192.168.0.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.112, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\amitg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11439}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9002ad495da94f339228f83787964b2
+*** Element info: {Using=xpath, value=//a[text()='View']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='View']"}
+  (Session info: chrome=116.0.5845.112)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D8IUSTU', ip: '192.168.0.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.112, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\amitg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11439}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9002ad495da94f339228f83787964b2
+*** Element info: {Using=xpath, value=//a[text()='View']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at pomPages.J_ListTenantsPage.viewTenantInfo(J_ListTenantsPage.java:76)
+at riddhi_test.J_ListTenantsTest.viewTenantinfo(J_ListTenantsTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewTenantinfo -->
+      </class> <!-- riddhi_test.J_ListTenantsTest -->
+      <class name="riddhi_test.D_ViewContentsTest">
+        <test-method is-config="true" signature="getContentsListPage()[pri:0, instance:riddhi_test.D_ViewContentsTest@39655d3e]" started-at="2023-09-01T12:16:40 IST" name="getContentsListPage" finished-at="2023-09-01T12:16:41 IST" duration-ms="1512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContentsListPage -->
+        <test-method signature="viewContentsList()[pri:21, instance:riddhi_test.D_ViewContentsTest@39655d3e]" started-at="2023-09-01T12:16:41 IST" name="viewContentsList" finished-at="2023-09-01T12:17:48 IST" duration-ms="66416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewContentsList -->
+        <test-method signature="searchContentsTest()[pri:22, instance:riddhi_test.D_ViewContentsTest@39655d3e]" started-at="2023-09-01T12:17:48 IST" name="searchContentsTest" finished-at="2023-09-01T12:17:50 IST" duration-ms="2565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchContentsTest -->
+      </class> <!-- riddhi_test.D_ViewContentsTest -->
+      <class name="riddhi_test.E_AddReceiptsTest">
+        <test-method is-config="true" signature="getPage()[pri:0, instance:riddhi_test.E_AddReceiptsTest@34f22f9d]" started-at="2023-09-01T12:17:50 IST" name="getPage" finished-at="2023-09-01T12:17:54 IST" duration-ms="4239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPage -->
+        <test-method signature="createNewReceipt()[pri:0, instance:riddhi_test.E_AddReceiptsTest@34f22f9d]" started-at="2023-09-01T12:17:54 IST" name="createNewReceipt" finished-at="2023-09-01T12:17:56 IST" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewReceipt -->
+      </class> <!-- riddhi_test.E_AddReceiptsTest -->
+      <class name="riddhi_test.B_SectionTest">
+        <test-method is-config="true" signature="sections()[pri:0, instance:riddhi_test.B_SectionTest@22356acd]" started-at="2023-09-01T12:16:00 IST" name="sections" finished-at="2023-09-01T12:16:01 IST" duration-ms="1476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sections -->
+        <test-method signature="showEntries()[pri:4, instance:riddhi_test.B_SectionTest@22356acd]" started-at="2023-09-01T12:16:01 IST" name="showEntries" finished-at="2023-09-01T12:16:02 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showEntries -->
+        <test-method signature="getListOfSections()[pri:5, instance:riddhi_test.B_SectionTest@22356acd]" started-at="2023-09-01T12:16:02 IST" name="getListOfSections" finished-at="2023-09-01T12:16:31 IST" duration-ms="29718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfSections -->
+      </class> <!-- riddhi_test.B_SectionTest -->
+      <class name="riddhi_test.F_ViewReceiptsTest">
+        <test-method is-config="true" signature="getViewReceiptsPage()[pri:0, instance:riddhi_test.F_ViewReceiptsTest@3d1848cc]" started-at="2023-09-01T12:17:56 IST" name="getViewReceiptsPage" finished-at="2023-09-01T12:18:02 IST" duration-ms="5580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getViewReceiptsPage -->
+        <test-method signature="viewReceiptByID()[pri:0, instance:riddhi_test.F_ViewReceiptsTest@3d1848cc]" started-at="2023-09-01T12:18:02 IST" name="viewReceiptByID" finished-at="2023-09-01T12:18:02 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewReceiptByID -->
+      </class> <!-- riddhi_test.F_ViewReceiptsTest -->
+      <class name="riddhi_test.L_ListExpensesTest">
+        <test-method is-config="true" signature="getListExpensesPage()[pri:0, instance:riddhi_test.L_ListExpensesTest@5e4bd84a]" started-at="2023-09-01T12:18:33 IST" name="getListExpensesPage" finished-at="2023-09-01T12:18:35 IST" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListExpensesPage -->
+        <test-method signature="searchExpenseByName()[pri:0, instance:riddhi_test.L_ListExpensesTest@5e4bd84a]" started-at="2023-09-01T12:18:35 IST" name="searchExpenseByName" finished-at="2023-09-01T12:18:39 IST" duration-ms="3806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchExpenseByName -->
+      </class> <!-- riddhi_test.L_ListExpensesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
